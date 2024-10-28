@@ -1,0 +1,121 @@
+/*
+ * File Name: Home.css
+ * Student Name: Muskaan Saini
+ * Student ID: 301420345
+ * Date: 04/10/2024
+ */
+ body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.home-container h1 {
+    font-size: 3rem;
+    color: #333333;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.home-container p {
+    font-size: 1.2rem;
+    color: #555555;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+.home-container p strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.home-container button {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.home-container button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 25px;
+    margin-left: 15px;
+    transition: color 0.3s ease, transform 0.2s;
+}
+
+.social-icons a:hover {
+    color: #f39c12;
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .home-container {
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    .home-container h1 {
+        font-size: 2.5rem;
+    }
+
+    .home-container p {
+        font-size: 1rem;
+    }
+
+    .home-container button {
+        padding: 10px 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+}

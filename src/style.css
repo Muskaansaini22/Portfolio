@@ -1,0 +1,43 @@
+/*
+ * File Name: style.css
+ * Student Name: Muskaan Saini
+ * Student ID: 301420345
+ * Date: 04/10/2024
+ */
+ body {
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  div {
+    padding: 2rem;
+  }
+  
+.logo-image {
+    width: 50px; 
+    height: auto;
+  }
+  

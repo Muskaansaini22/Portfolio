@@ -1,0 +1,79 @@
+/*
+ * File Name: AboutMe.css
+ * Student Name: Muskaan Saini
+ * Student ID: 301420345
+ * Date: 04/10/2024
+ */
+ .about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.profile-image {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgba(42, 157, 244, 0.8);
+    box-shadow: 0 0 15px rgba(42, 157, 244, 0.5);
+}
+
+.profile-description {
+    max-width: 400px;
+    text-align: left;
+}
+
+.resume-button {
+    background-color: #2a9df4;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.resume-button:hover {
+    background-color: #2188c9;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        padding: 20px;
+        margin: 30px auto;
+    }
+
+    .profile-section {
+        flex-direction: column;
+    }
+
+    .profile-image {
+        width: 180px;
+        height: 180px;
+    }
+
+    .resume-button {
+        padding: 10px 20px;
+    }
+}
